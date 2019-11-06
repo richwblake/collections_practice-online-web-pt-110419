@@ -33,5 +33,6 @@ def find_a( arr )
 end
 
 def sum_array( arr )
-  
+  total = 0
+  arr.each {
 end
