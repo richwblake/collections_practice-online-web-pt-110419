@@ -39,5 +39,5 @@ def sum_array( arr )
 end
 
 def add_s( arr )
-  arr.collect { |string| string.insert( -1, "s") if arr.find_index( string ) == 1 }
+  arr.collect { |string| string.insert( -1, "s") unless arr.find_index( string ) == 1 }
 end
