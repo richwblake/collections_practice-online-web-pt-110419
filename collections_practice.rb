@@ -19,3 +19,7 @@ end
 def reverse_array( arr )
   arr.reverse
 end
+
+def kesha_maker( arr )
+  arr.collect { |value| value.to_a.delete_at( 2 ).insert( 2, "$" ).to_s }
+end
