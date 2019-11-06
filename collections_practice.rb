@@ -31,3 +31,7 @@ end
 def find_a( arr )
   arr.collect { |value| value if value[0] == 'a' }.compact
 end
+
+def sum_array( arr )
+  
+end
