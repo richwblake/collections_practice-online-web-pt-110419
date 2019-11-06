@@ -39,5 +39,5 @@ def sum_array( arr )
 end
 
 def add_s( arr )
-  arr.collect { |string|  }
+  arr.collect { |string| string.insert( -1, "s") if arr.index }
 end
